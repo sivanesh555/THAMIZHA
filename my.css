@@ -1,0 +1,159 @@
+
+body{
+    background-color: none;
+    color: white;
+    background-size: 100% ;
+    background-repeat:repeat;
+    padding: 12px;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+    line-height: 1.7;
+    background-image:url(/WhatsApp\ Image\ 2026-09-24\ at\ 6.32.38\ PM.jpeg)
+
+}
+
+.background {
+    position: fixed;
+    inset: 0;
+    background-image: url("my.jpg/");
+    background-size: cover;
+    background-position: center;
+    filter: blur(4px);
+    transform: scale(1.05);
+    z-index: -2;
+}
+
+.background::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px;
+    
+}
+h2{
+    color: aliceblue;
+   
+}
+h3{
+    color: aliceblue;
+}
+h4{
+    color: aliceblue;
+    font-size: large;
+}
+p{
+    text-indent: 50px;
+    color:white;
+    line-height: 1.6;
+    background: none;
+    padding: 12px;
+    border-radius: 10px;
+    line-height: 1.7;
+}
+ul{
+    color: aliceblue;
+    padding: 30px;
+}
+li{
+    margin-bottom: 10px;
+}
+header{
+    padding: 20px;
+}
+div{
+    border:none;
+}
+.div{
+    text-align: left;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+
+}
+#title{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.translate-box {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    z-index: 1000;
+}
+
+
+#translateBtn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+
+}
+.read-more-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    background: none;
+    border: none;
+    outline: none;
+
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+    cursor: pointer;
+    padding: 5px 0;
+
+    transition: 0.3s ease;
+}
+
+.read-more-btn span {
+    transition: 0.3s ease;
+}
+
+.read-more-btn:hover {
+    color: #00bfff;
+}
+
+.read-more-btn:hover span {
+    transform: translateX(5px);
+}
+.read-more-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#morecontent {
+    display: none;
+}
+.translate-area{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
